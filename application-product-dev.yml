@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: product-service
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql:///easybuy-product?useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
